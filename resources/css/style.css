@@ -130,3 +130,79 @@ header .flex {
   color: white;
   max-width: 10rem;
 }
+
+/* Footer Section CSS */
+
+footer {
+  background-color: azure;
+  padding: 4rem 2rem;
+  display: flex;
+  align-items: center;
+}
+
+footer img {
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+
+/* Mobile CSS */
+
+@media only screen and (max-width: 560px) {
+
+   nav.container {
+     max-width: 100%;
+   }
+
+  .icons {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 3rem;
+  }
+
+  footer {
+    justify-content: center;
+  }
+
+  header {
+    background-position: 20%;
+    height: 17rem;
+    padding: 0;
+  }
+
+  .main-banner {
+    padding: 0 1rem;
+    margin: 9rem auto 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+
+  .info {
+    width: auto;
+  }
+
+  .info .title {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .info p {
+    padding: 1rem 2rem;
+  }
+
+  footer div {
+    display: none;
+
+  }
+
+  .menu ul {
+    display: none;
+  }
+
+  .menu ul.mobile-menu {
+    display: block;
+  }
+
+}
